@@ -11,6 +11,14 @@
 .nav__link {
   cursor: pointer;
   color: #fff;
+  a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      color: #c6c6c6;
+    }
+  }
   &:hover {
     color: #c6c6c6;
   }

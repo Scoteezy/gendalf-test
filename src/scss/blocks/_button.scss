@@ -6,6 +6,9 @@
   border: 1px solid $main-color;
   background-color: #fff;
   color: $main-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   transition: all 0.3s;
   a {
@@ -23,10 +26,16 @@
   &-filled {
     background-color: $main-color;
     color: #fff;
+    a {
+      color: #fff;
+    }
     &:hover {
       border: 1px solid $main-color;
       background-color: #fff;
       color: $main-color;
+      a {
+        color: $main-color;
+      }
     }
   }
   &-thin {

@@ -16,7 +16,8 @@
     color: #666;
   }
   &__btns {
-    button {
+    display: flex;
+    div {
       margin-bottom: 59px;
       &:last-child {
         margin-left: 21px;

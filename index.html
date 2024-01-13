@@ -25,16 +25,22 @@
         <img src="/images/logo.svg" alt="gendalf logo" />
         <nav aria-label="desktop" class="nav-desktop">
           <ul class="nav__links">
-            <li class="nav__link">Профориентация</li>
-            <li class="nav__link">Выбрать вакансию</li>
-            <li class="nav__link">Карьера в ГЭНДАЛЬФ</li>
-            <li class="nav__link">Стажерство</li>
-            <li class="nav__link">Отзывы</li>
+            <li class="nav__link">
+              <a href="#infrastructure">Профориентация</a>
+            </li>
+            <li class="nav__link"><a href="#interview">Выбрать вакансию</a></li>
+            <li class="nav__link">
+              <a href="#infrastructure">Карьера в ГЭНДАЛЬФ</a>
+            </li>
+            <li class="nav__link"><a href="#interview">Стажерство</a></li>
+            <li class="nav__link">
+              <a target="_blank" href="https://github.com/Scoteezy">Отзывы</a>
+            </li>
           </ul>
         </nav>
-        <button class="button button-thin">
+        <div class="button button-thin">
           <a href="#interview">Запись на собеседование</a>
-        </button>
+        </div>
       </div>
       <div class="mobile">
         <img src="/images/mobile/search.svg" alt="cart" />
@@ -48,11 +54,17 @@
         </div>
         <nav aria-label="mobile" class="nav-mobile">
           <ul class="nav__links">
-            <li class="nav__link">Профориентация</li>
-            <li class="nav__link">Выбрать вакансию</li>
-            <li class="nav__link">Карьера в ГЭНДАЛЬФ</li>
-            <li class="nav__link">Стажерство</li>
-            <li class="nav__link">Отзывы</li>
+            <li class="nav__link">
+              <a href="#infrastructure">Профориентация</a>
+            </li>
+            <li class="nav__link"><a href="#interview">Выбрать вакансию</a></li>
+            <li class="nav__link">
+              <a href="#infrastructure">Карьера в ГЭНДАЛЬФ</a>
+            </li>
+            <li class="nav__link"><a href="#interview">Стажерство</a></li>
+            <li class="nav__link">
+              <a target="_blank" href="https://github.com/Scoteezy">Отзывы</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -68,10 +80,12 @@
         записывайся на собеседование!
       </p>
       <div class="intro__buttons">
-        <button class="button button-small button-green">Почему мы</button>
-        <button class="button button-green-outlined">
+        <div class="button button-small button-green">
+          <a href="#infrastructure">Почему мы</a>
+        </div>
+        <div class="button button-green-outlined">
           <a href="#interview">Записаться на собеседование</a>
-        </button>
+        </div>
       </div>
     </section>
     <div class="wrapper">
@@ -90,12 +104,14 @@
             другие, чей карьерный рост не ограничен привычными рамками.
           </p>
           <div class="duties__btns">
-            <button class="button button-small button-filled">
-              Узнать больше
-            </button>
-            <button class="button">
+            <div class="button button-small button-filled">
+              <a target="_blank" href="https://github.com/Scoteezy"
+                >Узнать больше</a
+              >
+            </div>
+            <div class="button">
               <a href="#interview">Записаться на собеседование</a>
-            </button>
+            </div>
           </div>
         </div>
         <div class="duties__right">
@@ -161,7 +177,7 @@
         </div>
       </div>
     </section>
-    <section class="infrastructure">
+    <section class="infrastructure" id="infrastructure">
       <div class="wrapper">
         <h2 class="title title-center">
           Инфраструктура для твоего развития и роста
@@ -190,9 +206,9 @@
         Ты студент и хочешь устроиться <br />
         на практику?
       </h2>
-      <button class="button button-green">
+      <div class="button button-green">
         <a href="#interview">Оставить заявку</a>
-      </button>
+      </div>
     </section>
     <section class="questions">
       <div class="wrapper">
@@ -258,7 +274,7 @@
     </section>
     <section id="interview" class="interview">
       <div class="wrapper">
-        <form class="form" action="">
+        <form class="form">
           <div class="form__inner">
             <h2 class="form__title">Записаться на собеседование</h2>
             <input
@@ -270,7 +286,7 @@
               required
             />
             <input
-              type="phone"
+              type="tel"
               placeholder="Телефон"
               class="form__input"
               pattern="^\+7[1-9]{10}$"
