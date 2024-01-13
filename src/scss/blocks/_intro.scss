@@ -1,6 +1,7 @@
 .intro {
   margin: 0;
-  background-image: url("images/intro__bg.png");
+  background: url("images/intro__bg.png") no-repeat;
+  background-size: cover;
   height: 568px;
 
   &__title {
