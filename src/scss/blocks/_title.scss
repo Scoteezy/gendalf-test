@@ -1,0 +1,10 @@
+.title {
+  font-size: 36px;
+  line-height: 49px;
+  margin-top: 0;
+  color: $main-color;
+  font-weight: 300;
+  &-center {
+    text-align: center;
+  }
+}

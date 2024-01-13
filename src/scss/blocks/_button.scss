@@ -1,0 +1,68 @@
+.button {
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  font-weight: 700;
+  border: 1px solid $main-color;
+  background-color: #fff;
+  color: $main-color;
+  cursor: pointer;
+  transition: all 0.3s;
+  a {
+    color: $main-color;
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: $main-color;
+    a {
+      color: #fff;
+    }
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  &-filled {
+    background-color: $main-color;
+    color: #fff;
+    &:hover {
+      border: 1px solid $main-color;
+      background-color: #fff;
+      color: $main-color;
+    }
+  }
+  &-thin {
+    height: 40px;
+  }
+  &-small {
+    width: 175px;
+  }
+  &-green {
+    background-color: #9bcc37;
+    border: none;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+    &:hover {
+      border: 1px solid #9bcc37;
+      background-color: #fff;
+      color: #9bcc37;
+      a {
+        color: #9bcc37;
+      }
+    }
+    &-outlined {
+      border: 1px solid #9bcc37;
+      background-color: #fff;
+      color: #9bcc37;
+      a {
+        color: #9bcc37;
+        text-decoration: none;
+      }
+      &:hover {
+        background-color: #9bcc37;
+        border: none;
+        color: #fff;
+      }
+    }
+  }
+}

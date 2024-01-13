@@ -1,0 +1,17 @@
+.desktop {
+}
+.nav-desktop {
+  width: 90%;
+}
+.nav__links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.nav__link {
+  cursor: pointer;
+  color: #fff;
+  &:hover {
+    color: #c6c6c6;
+  }
+}

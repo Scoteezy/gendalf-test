@@ -1,0 +1,25 @@
+.values {
+  background: #e9e9e9;
+  min-height: 482px;
+  padding-top: 36px;
+  padding-bottom: 50px;
+
+  &__img {
+    max-width: 315px;
+    max-height: 202px;
+    display: block;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 37px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+    line-height: 22px;
+  }
+}

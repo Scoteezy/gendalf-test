@@ -1,0 +1,85 @@
+.form {
+  display: flex;
+  margin: 0 auto;
+
+  width: 70%;
+  background-color: $main-color;
+  opacity: 0.8;
+
+  flex-direction: column;
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__inner {
+    margin: 0 auto;
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 49px;
+    text-align: center;
+  }
+  div {
+    margin-top: 10px;
+    &:first-child {
+      margin-top: 7px;
+    }
+    label {
+      margin-left: 5px;
+    }
+    &:last-child {
+      margin-bottom: 17px;
+    }
+  }
+  &__input {
+    padding: 0;
+    display: block;
+    min-width: 560px;
+    padding-left: 5px;
+    height: 50px;
+    width: 100%;
+    border: 1px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    color: #000;
+    &::placeholder {
+      color: #666;
+      font-weight: 300;
+      font-size: 18px;
+    }
+  }
+  &__subtitle {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__placeholder {
+    padding: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 12px;
+    max-height: 108px;
+    color: #000;
+    &::placeholder {
+      color: #666;
+      font-weight: 300;
+      font-size: 18px;
+    }
+  }
+  &__btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    :first-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 5px;
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+}

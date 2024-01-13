@@ -1,0 +1,16 @@
+.questions {
+  background: $gradient;
+  min-height: 391px;
+  &__desc {
+    padding-top: 60px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img {
+    margin-top: 36px;
+    max-width: 378px;
+    max-height: 320px;
+  }
+}

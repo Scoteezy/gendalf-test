@@ -1,0 +1,266 @@
+@media (max-width: 1200px) {
+  .duties {
+    display: flex;
+    &__left {
+      margin-right: 50px;
+      max-width: 600px;
+    }
+
+    &__btns {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-left: 0;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .title {
+    text-align: center;
+    font-size: 28px;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav__links {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav__link {
+    margin-top: 25px;
+  }
+  .duties {
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+
+    width: 100%;
+    display: flex;
+    text-align: center;
+    &__left {
+      margin-right: 0px;
+      max-width: fit-content;
+    }
+    &__right {
+      width: fit-content;
+      margin-bottom: 15px;
+      display: none;
+    }
+    &__desc {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: #666;
+    }
+  }
+
+  .infrastructure {
+    padding-top: 36px;
+    &__text {
+      max-width: 400px;
+      font-size: 16px;
+      span {
+        display: block;
+        color: #666666;
+        margin-top: 10px;
+      }
+    }
+    &__img {
+      width: 450px;
+    }
+  }
+  .form {
+    width: 70%;
+    text-align: center;
+    &__input {
+      min-width: 400px;
+    }
+    &__placeholder {
+      min-width: 400px;
+      height: 50px;
+    }
+    &__container {
+      width: 100%;
+      margin: 0 auto;
+      text-align: left;
+    }
+    &__btns {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      align-items: center;
+      :first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        img {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .button {
+    width: 295px;
+  }
+  .intro {
+    height: 400px;
+    &__title {
+      font-size: 37px;
+      line-height: 31px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    &__buttons {
+      flex-direction: column;
+      button {
+        &:last-child {
+          margin-top: 15px;
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+  .infrastructure {
+    padding-top: 26px;
+    &__text {
+      max-width: 500px;
+      font-size: 16px;
+      text-align: center;
+      span {
+        display: block;
+        color: #666666;
+        margin-top: 10px;
+      }
+    }
+    &__img {
+      width: 90%;
+      margin-bottom: 50px;
+    }
+    &__inner {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+  .questions {
+    background: $gradient;
+    min-height: 391px;
+    &__desc {
+      padding-top: 60px;
+    }
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__img {
+      display: none;
+    }
+  }
+  .form {
+    width: 90%;
+    &__input {
+      min-width: 300px;
+      width: 30%;
+    }
+    &__placeholder {
+      min-width: 300px;
+      width: 30%;
+      height: 50px;
+    }
+    &__container {
+      width: 60%;
+      margin: 0 auto;
+      text-align: left;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .intro {
+    &__title {
+      font-size: 24px;
+    }
+    &__subtitle {
+      font-size: 16px;
+    }
+  }
+  .duties {
+    &__desc {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+  .values {
+    &__title {
+      font-size: 18px;
+      line-height: 30px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .infrastructure {
+    &__text {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+  .practice {
+    &__title {
+      font-size: 28px;
+      line-height: 38px;
+      margin-bottom: 36px;
+      font-weight: 300;
+    }
+  }
+  .form {
+    &__title {
+      font-size: 28px;
+      line-height: 38px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    &__container {
+      width: 75%;
+      margin: 0 auto;
+      text-align: left;
+    }
+    div {
+      margin-top: 10px;
+      &:first-child {
+        margin-top: 0px;
+      }
+      label {
+        margin-left: 0px;
+      }
+      &:last-child {
+        margin-bottom: 17px;
+      }
+    }
+  }
+}

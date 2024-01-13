@@ -1,0 +1,23 @@
+.infrastructure {
+  background: $gradient;
+  min-height: 499px;
+  padding-top: 56px;
+  &__text {
+    color: #666666;
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 24px;
+    span {
+      display: block;
+      color: #666666;
+      margin-top: 10px;
+    }
+  }
+  &__img {
+    cursor: pointer;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}

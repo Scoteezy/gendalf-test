@@ -1,0 +1,26 @@
+.duties {
+  margin-top: 50px;
+  padding: 0 15px;
+  display: flex;
+  &__left {
+    margin-right: 100px;
+    max-width: 730px;
+  }
+  &__right {
+    width: 100%;
+  }
+  &__desc {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666;
+  }
+  &__btns {
+    button {
+      margin-bottom: 59px;
+      &:last-child {
+        margin-left: 21px;
+      }
+    }
+  }
+}

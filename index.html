@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gendalf Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="desktop">
+        <img src="/images/logo.svg" alt="gendalf logo" />
+        <nav aria-label="desktop" class="nav-desktop">
+          <ul class="nav__links">
+            <li class="nav__link">Профориентация</li>
+            <li class="nav__link">Выбрать вакансию</li>
+            <li class="nav__link">Карьера в ГЭНДАЛЬФ</li>
+            <li class="nav__link">Стажерство</li>
+            <li class="nav__link">Отзывы</li>
+          </ul>
+        </nav>
+        <button class="button button-thin">
+          <a href="#interview">Запись на собеседование</a>
+        </button>
+      </div>
+      <div class="mobile">
+        <img src="/images/mobile/search.svg" alt="cart" />
+        <img src="/images/mobile/cart.svg" alt="cart" />
+        <img src="/images/mobile/logo-mobile.svg" alt="cart" />
+        <img src="/images/mobile/profile.svg" alt="cart" />
+        <div class="hamburger hamburger-active">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav aria-label="mobile" class="nav-mobile">
+          <ul class="nav__links">
+            <li class="nav__link">Профориентация</li>
+            <li class="nav__link">Выбрать вакансию</li>
+            <li class="nav__link">Карьера в ГЭНДАЛЬФ</li>
+            <li class="nav__link">Стажерство</li>
+            <li class="nav__link">Отзывы</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="intro">
+      <h1 class="intro__title">
+        Добро пожаловать <br />
+        в ГЭНДАЛЬФ!
+      </h1>
+      <p class="intro__subtitle">
+        Мы готовы поделиться секретом, почему любим компанию, в которой
+        работаем. Если тебе будут близки наши ценности и идеи, то смело
+        записывайся на собеседование!
+      </p>
+      <div class="intro__buttons">
+        <button class="button button-small button-green">Почему мы</button>
+        <button class="button button-green-outlined">
+          <a href="#interview">Записаться на собеседование</a>
+        </button>
+      </div>
+    </section>
+    <div class="wrapper">
+      <section class="duties">
+        <div class="duties__left">
+          <h2 class="title">О том, чем мы занимаемся</h2>
+          <p class="duties__desc">
+            ГЭНДАЛЬФ – один из крупнейших игроков на рынке информационных
+            технологий, занимающий 4 место среди 7000 партнеров фирмы «1С». У
+            нас есть представительства в 15 городах России, а нашими услугами
+            пользуются 23 000 организаций-клиентов, в числе которых «Базэл
+            Аэро», «Ростсельмаш», UTG. Аэропорт Кольцово и многие другие. Мы
+            тщательно подходим к выбору сотрудников, которые становятся частью
+            команды профессионалов. У нас работают специалисты разных областей:
+            программисты, маркетологи, менеджеры, копирайтеры, методисты и
+            другие, чей карьерный рост не ограничен привычными рамками.
+          </p>
+          <div class="duties__btns">
+            <button class="button button-small button-filled">
+              Узнать больше
+            </button>
+            <button class="button">
+              <a href="#interview">Записаться на собеседование</a>
+            </button>
+          </div>
+        </div>
+        <div class="duties__right">
+          <img src="/images/duties.png" alt="duties-image" />
+        </div>
+      </section>
+    </div>
+    <section class="values">
+      <div class="wrapper">
+        <h2 class="title">Наши ценности скажут о нас больше:</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="values__img"
+                src="/images/values_1.png"
+                alt="values-img-1"
+              />
+              <h2 class="values__title">Быть Командой</h2>
+              <p class="values__text">
+                Готовность вносить вклад в общие цели команды и достигать их.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                class="values__img"
+                src="/images/values_2.png"
+                alt="values-img-2"
+              />
+              <h2 class="values__title">Побеждать и не сдаваться</h2>
+              <p class="values__text">
+                Быть ориентированным на результат, настойчивым и не сдаваться
+                перед трудностями.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="values__img"
+                src="/images/values_3.png"
+                alt="values-img-3"
+              />
+              <h2 class="values__title">Заботиться о клиентах</h2>
+              <p class="values__text">
+                Выполнять обещания и интересоваться потребностями своих
+                клиентов.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="values__img"
+                src="/images/values_4.png"
+                alt="values-img-4"
+              />
+              <h2 class="values__title">Быть увлеченным и ответственным</h2>
+              <p class="values__text">
+                Вкладывать душу в то, что делаешь и получать от работы
+                удовольствие.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="infrastructure">
+      <div class="wrapper">
+        <h2 class="title title-center">
+          Инфраструктура для твоего развития и роста
+        </h2>
+        <div class="infrastructure__inner">
+          <p class="infrastructure__text">
+            Мы создаем платформу для профессионального развития каждого
+            сотрудника. Главная цель – дать возможность учиться, работать и
+            получать удовольствие от каждой успешной задачи.
+            <br />
+            <span>
+              О возможностях личностного роста в ГЭНДАЛЬФ расскажет руководитель
+              Департамента персонала и карьеры Татьяна Арсенович.
+            </span>
+          </p>
+          <img
+            src="/images/video.png"
+            alt="infrastructure-img-link"
+            class="infrastructure__img"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="practice">
+      <h2 class="practice__title">
+        Ты студент и хочешь устроиться <br />
+        на практику?
+      </h2>
+      <button class="button button-green">
+        <a href="#interview">Оставить заявку</a>
+      </button>
+    </section>
+    <section class="questions">
+      <div class="wrapper">
+        <div class="questions__inner">
+          <div class="questions__desc">
+            <h2 class="title">Ответы на вопросы</h2>
+            <div class="accordion-container">
+              <div class="ac">
+                <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">
+                    <img src="images/play.svg" alt="play" /> На что нужно
+                    обратить внимание на собеседовании?
+                  </button>
+                </h2>
+                <div class="ac-panel">
+                  <img src="images/placeholder.jpg" alt="placeholder" />
+                </div>
+              </div>
+
+              <div class="ac">
+                <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">
+                    <img src="images/play.svg" alt="play" /> Как правильно
+                    составить резюме?
+                  </button>
+                </h2>
+                <div class="ac-panel">
+                  <img src="images/placeholder.jpg" alt="placeholder" />
+                </div>
+              </div>
+
+              <div class="ac">
+                <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">
+                    <img src="images/play.svg" alt="play" /> Возможно ли
+                    устроиться без опыта?
+                  </button>
+                </h2>
+                <div class="ac-panel">
+                  <img src="images/placeholder.jpg" alt="placeholder" />
+                </div>
+              </div>
+              <div class="ac">
+                <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">
+                    <img src="images/play.svg" alt="play" /> Ошибки на
+                    собеседовании. Чего нужно избегать?
+                  </button>
+                </h2>
+                <div class="ac-panel">
+                  <img src="images/placeholder.jpg" alt="placeholder" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="questions__img"
+            src="/images/questions.png"
+            alt="questions__image"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="interview" class="interview">
+      <div class="wrapper">
+        <form class="form" action="">
+          <div class="form__inner">
+            <h2 class="form__title">Записаться на собеседование</h2>
+            <input
+              type="text"
+              placeholder="Как к вам обращаться"
+              class="form__input"
+              minlength="2"
+              maxlength="32"
+              required
+            />
+            <input
+              type="phone"
+              placeholder="Телефон"
+              class="form__input"
+              pattern="^\+7[1-9]{10}$"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="form__input"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Желаемая должность"
+              required
+              minlength="2"
+              maxlength="32"
+              class="form__input"
+            />
+            <h2 class="form__subtitle">Выберите категорию занятости</h2>
+            <div class="form__container">
+              <div>
+                <input
+                  type="radio"
+                  id="formatChoice1"
+                  class="form__radio"
+                  name="contact"
+                  value="office"
+                />
+                <label for="formatChoice1"> Работа в офисе</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="formatChoice2"
+                  class="form__radio"
+                  name="contact"
+                  value="intern"
+                />
+                <label for="formatChoice2"> Стажировка</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="formatChoice3"
+                  class="form__radio"
+                  name="contact"
+                  value="remote"
+                />
+                <label for="formatChoice3"> Удаленная работа</label>
+              </div>
+            </div>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="30"
+              rows="10"
+              placeholder="Ваши вопросы"
+              class="form__placeholder"
+            ></textarea>
+            <div class="form__btns">
+              <button class="button button-green-outlined">
+                Прикрепить резюме
+                <img src="/images/pin.svg" alt="pin" />
+              </button>
+              <button class="button button-green" type="submit">
+                Оставить заявку
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        freeMode: true,
+        breakpoints: {
+          767: {
+            slidesPerView: 2,
+          },
+          991: {
+            slidesPerView: 3,
+          },
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      new Accordion(".accordion-container");
+    </script>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
