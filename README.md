@@ -13,6 +13,7 @@ https://gendalf-test.vercel.app/
 **Client:** Vite, HTML, SCSS, JS
 
 **Libraries:** SwiperJs, Accordion-js
+**Dev:** EsLint airbnb config
 
 **Реализовано:** Анимации,hover-эффекты, базовая валидация на стороне клиента, слайдер, аккордеон
 ## Run Locally
