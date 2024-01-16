@@ -6,18 +6,6 @@
     <title>Gendalf Test</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.css"
-    />
   </head>
   <body>
     <header class="header">
@@ -287,9 +275,10 @@
             />
             <input
               type="tel"
-              placeholder="Телефон +7"
+              placeholder="Телефон +7(000)000-00-00"
               class="form__input"
-              pattern="^\+7[1-9]{10}$"
+              id="tel"
+              pattern="^(\+7|8)[1-9]\d{9}$"
               required
             />
             <input
@@ -348,10 +337,24 @@
               class="form__placeholder"
             ></textarea>
             <div class="form__btns">
-              <button class="button button-green-outlined">
-                Прикрепить резюме
-                <img src="/images/pin.svg" alt="pin" />
-              </button>
+              <input
+                name="file"
+                id="input__fule"
+                class="input__file"
+                type="file"
+              />
+              <label for="input__file" class="input__file-button">
+                <span class="input__file-icon-wrapper">
+                  <img
+                    class="input__file-icon"
+                    src="/images/pin.svg"
+                    alt="pin"
+                    width="25"
+                  />
+                </span>
+                <span class="input__file-button-text"> Прикрепить резюме </span>
+              </label>
+
               <button class="button button-green" type="submit">
                 Оставить заявку
               </button>
@@ -360,30 +363,6 @@
         </form>
       </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        freeMode: true,
-        breakpoints: {
-          767: {
-            slidesPerView: 2,
-          },
-          991: {
-            slidesPerView: 3,
-          },
-        },
-
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-      new Accordion(".accordion-container");
-    </script>
 
     <script type="module" src="/src/js/main.js"></script>
   </body>

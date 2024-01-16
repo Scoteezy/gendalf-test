@@ -8,10 +8,14 @@
   justify-content: center;
   align-items: center;
   margin-right: 50px;
+  text-align: center;
 }
 .slider-wrapper {
   display: flex;
   justify-content: space-around;
+}
+.swiper-pagination {
+  position: static;
 }
 .ac .ac-trigger {
   font-size: 18px;
@@ -31,4 +35,8 @@
   background: inherit;
   border: none;
   width: fit-content;
+  img {
+    display: block;
+    margin: 5px auto 0 auto;
+  }
 }

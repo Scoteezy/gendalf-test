@@ -19,5 +19,8 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    quotes: ["error", "double"],
+    "linebreak-style": false,
+  },
 };

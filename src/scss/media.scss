@@ -102,17 +102,11 @@
       justify-content: space-between;
       width: 100%;
       align-items: center;
-      :first-child {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0px;
-        margin-bottom: 10px;
-        img {
-          margin-left: 10px;
-        }
-      }
     }
+  }
+  .input__file-button {
+    margin-right: 0;
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 767px) {
@@ -191,6 +185,9 @@
       margin: 0 auto;
       text-align: left;
     }
+  }
+  .input__file-button {
+    width: 295px;
   }
 }
 @media (max-width: 575px) {
