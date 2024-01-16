@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable quotes */
 import "swiper/css/bundle";
 import "accordion-js/dist/accordion.min.css";
 
