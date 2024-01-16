@@ -13,8 +13,6 @@ window.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const body = document.body;
   const telInput = document.getElementById("tel");
-  console.log(telInput.value);
-  console.log(body);
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("hamburger_active");
     menu.classList.toggle("nav-mobile_active");
