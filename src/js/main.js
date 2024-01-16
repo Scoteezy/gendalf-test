@@ -47,7 +47,9 @@ window.addEventListener("DOMContentLoaded", () => {
       let fileName = this.files[0].name;
       if (this.files.length != 0) {
         label.querySelector(".input__file-button-text").innerText =
-          "Выбран файл: " + fileName;
+          fileName.length < 25
+            ? "Выбран файл: " + fileName
+            : "Выбран файл: " + fileName.slice(0, 25) + "...";
       } else {
         label.querySelector(".input__file-button-text").innerText = labelVal;
       }
